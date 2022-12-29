@@ -1,4 +1,10 @@
-export async function load() {
+import { dev } from '$app/environment';
+import type { PageServerLoad } from './$types';
+
+export const prerender = true;
+export const csr = dev; // For hot-module reloading
+
+export const load = (async () => {
 	const negatives = [
 		'Not yet',
 		'Be patient, child',
@@ -13,4 +19,4 @@ export async function load() {
 	return {
 		text: negatives[Math.floor(Math.random() * negatives.length)]
 	};
-}
+}) satisfies PageServerLoad;

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../app.css';
+	import './styles.css';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -14,6 +14,17 @@
 	<p>
 		Sally © <a href="https://www.lucid-tales.com/">Lucid Tales</a>. All rights reserved.
 	</p>
+	<p>
+		<small>
+			<a
+				href="https://umami.jakobbouchard.dev/share/nlU4dVZT/sally.jakobbouchard.dev"
+				rel="noreferrer"
+				target="_blank"
+			>
+				Website stats
+			</a>
+		</small>
+	</p>
 </footer>
 
 <style>
@@ -21,12 +32,23 @@
 		font-size: 1.25em;
 		font-weight: 400;
 	}
+
 	main p {
 		margin-top: 0.5em;
 		font-size: 2em;
 		font-weight: 700;
 		color: #cc241d;
 	}
+
+	a {
+		color: var(--link-color);
+		text-decoration: underline;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
 	footer {
 		position: absolute;
 		padding: 1em;
