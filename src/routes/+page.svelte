@@ -1,6 +1,6 @@
 <script lang="ts">
-	import './styles.css';
-	import type { PageData } from './$types';
+	import "./styles.css";
+	import type { PageData } from "./$types";
 
 	export let data: PageData;
 </script>
@@ -12,7 +12,8 @@
 
 <footer>
 	<p>
-		Sally © <a href="https://www.lucid-tales.com/">Lucid Tales</a>. All rights reserved.
+		Sally © <a href="https://www.lucid-tales.com/">Lucid Tales</a>. All rights
+		reserved.
 	</p>
 	<p>
 		<small>
