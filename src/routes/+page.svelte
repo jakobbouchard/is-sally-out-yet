@@ -38,12 +38,14 @@
 		margin-top: 0.5em;
 		font-size: 2em;
 		font-weight: 700;
-		color: #cc241d;
+		color: var(--accent-color);
+		transition: color 0.2s ease;
 	}
 
 	a {
 		color: var(--link-color);
 		text-decoration: underline;
+		transition: color 0.2s ease;
 	}
 
 	a:hover {

@@ -4,7 +4,8 @@
 :root {
 	--background-color: #fefefe;
 	--text-color: #333;
-	--link-color: #f79b4e;
+	--accent-color: #cc241d;
+	--link-color: #a1680d;
 }
 
 body {
@@ -20,12 +21,14 @@ body {
 	text-align: center;
 	background-color: var(--background-color);
 	color: var(--text-color);
+	transition: color 0.2s ease, background-color 0.2s ease;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: #282828;
 		--text-color: #fefefe;
+		--accent-color: #ea3c36;
 		--link-color: #ffcc58;
 	}
 }
