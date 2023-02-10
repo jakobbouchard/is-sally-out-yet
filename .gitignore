@@ -1,8 +1,5 @@
 .DS_Store
 node_modules
 /.svelte-kit
-.env
-.env.*
-!.env.example
 .eslintcache
 vite.config.ts.timestamp-*
