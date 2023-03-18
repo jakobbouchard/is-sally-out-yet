@@ -15,17 +15,6 @@
 		Sally © <a href="https://www.lucid-tales.com/">Lucid Tales</a>. All rights
 		reserved.
 	</p>
-	<p>
-		<small>
-			<a
-				href="https://umami.jakobbouchard.dev/share/nlU4dVZT/sally.jakobbouchard.dev"
-				rel="noreferrer"
-				target="_blank"
-			>
-				Website stats
-			</a>
-		</small>
-	</p>
 </footer>
 
 <style>
