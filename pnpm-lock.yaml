@@ -39,14 +39,14 @@ devDependencies:
     specifier: 3.1.0
     version: 3.1.0
   prettier-plugin-svelte:
-    specifier: 3.1.1
-    version: 3.1.1(prettier@3.1.0)(svelte@4.2.7)
+    specifier: 3.1.2
+    version: 3.1.2(prettier@3.1.0)(svelte@4.2.7)
   svelte:
     specifier: 4.2.7
     version: 4.2.7
   svelte-check:
-    specifier: 3.6.0
-    version: 3.6.0(postcss@8.4.28)(svelte@4.2.7)
+    specifier: 3.6.2
+    version: 3.6.2(postcss@8.4.28)(svelte@4.2.7)
   tslib:
     specifier: 2.6.2
     version: 2.6.2
@@ -1141,7 +1141,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@2.0.0:
@@ -1624,14 +1624,6 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
-
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -2277,8 +2269,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte@3.1.1(prettier@3.1.0)(svelte@4.2.7):
-    resolution: {integrity: sha512-jLzaHfToav527/I5h2BMQfN3G5gylrJm54zFFyoXvUtfscI47877ftacUb+Eyse/3bXrhY+MtkyiuvruiHc+kg==}
+  /prettier-plugin-svelte@3.1.2(prettier@3.1.0)(svelte@4.2.7):
+    resolution: {integrity: sha512-7xfMZtwgAWHMT0iZc8jN4o65zgbAQ3+O32V6W7pXrqNvKnHnkoyQCGCbKeUyXKZLbYE0YhFRnamfxfkEGxm8qA==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -2551,8 +2543,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check@3.6.0(postcss@8.4.28)(svelte@4.2.7):
-    resolution: {integrity: sha512-8VfqhfuRJ1sKW+o8isH2kPi0RhjXH1nNsIbCFGyoUHG+ZxVxHYRKcb+S8eaL/1tyj3VGvWYx3Y5+oCUsJgnzcw==}
+  /svelte-check@3.6.2(postcss@8.4.28)(svelte@4.2.7):
+    resolution: {integrity: sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
