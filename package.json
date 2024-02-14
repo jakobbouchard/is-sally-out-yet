@@ -6,7 +6,7 @@
 	"packageManager": "pnpm@8.15.2",
 	"type": "module",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
