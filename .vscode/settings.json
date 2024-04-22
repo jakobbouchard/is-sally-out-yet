@@ -1,9 +1,7 @@
 {
 	"explorer.fileNesting.patterns": {
-		"+layout*.svelte": "+layout.ts, +layout.server.ts",
-		"+page*.svelte": "+page.server.ts, +page.ts",
-		"package.json": ".editorconfig, .eslint*, .lintstagedrc*, .npm*, .prettier*, pnpm*, renovate.json, svelte.config.*, tsconfig.json, vercel*, vite.config.*",
+		"package.json": ".editorconfig, .npm*, .prettier*, astro.config.*, pnpm*, prettier.config*, renovate.json, tsconfig.json, vercel*",
 		".gitignore": ".gitattributes",
-		"readme*": "changelog*, license*, readme*"
+		"readme*": "license*, readme*"
 	}
 }
