@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "1.1.0",
 	"license": "MIT",
-	"packageManager": "pnpm@9.1.1",
+	"packageManager": "pnpm@9.3.0",
 	"type": "module",
 	"scripts": {
 		"dev": "astro dev",
@@ -11,12 +11,12 @@
 		"preview": "astro preview"
 	},
 	"dependencies": {
-		"@astrojs/vercel": "7.6.0",
+		"@astrojs/vercel": "7.7.0",
 		"@fontsource/atkinson-hyperlegible": "5.0.20",
-		"astro": "4.8.3"
+		"astro": "4.10.2"
 	},
 	"devDependencies": {
-		"prettier": "3.2.5",
-		"prettier-plugin-astro": "0.13.0"
+		"prettier": "3.3.2",
+		"prettier-plugin-astro": "0.14.0"
 	}
 }
