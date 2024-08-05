@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@astrojs/vercel": "7.7.2",
 		"@fontsource/atkinson-hyperlegible": "5.0.20",
-		"astro": "4.12.2"
+		"astro": "4.13.1"
 	},
 	"devDependencies": {
 		"prettier": "3.3.3",
